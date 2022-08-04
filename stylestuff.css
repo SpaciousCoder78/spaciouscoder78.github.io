@@ -1,0 +1,17 @@
+body {text-align:left; background:skyblue; padding: 0 10% 0 10%}
+p {font-family: Arial, Helvetica, sans-serif; font-size: 22px}
+h1 {font-family: Arial, Helvetica, sans-serif; color:blue; font-size: 32px; font-weight: bold}
+h3 {font-family: Arial, Helvetica, sans-serif; color:blue; font-size: 32px; font-weight: bold}
+a.list{font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: bolder; text-decoration: none;line-height: 32px;}
+
+a.list:link{color: blue}
+a.list:visited{color:blueviolet}
+a.list:hover{color: seagreen; text-decoration:underline}
+
+div.main {width: 55%; padding: 0 5% 0 0}
+div.sidebar {width: 15% ; float:right ; text-align:center; position:relative;background-color: lightblue; border:grey; border-radius: 10%;}
+div.banner {width:100%; color:#ffffff;height:200px;background-image: url(banner.png);background-position:center;background-size: cover; padding: 2% 2% 2% 2% ; }
+
+div.footer {width:100%; background:#000000; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif;font-size: 1.5em; font-weight: bold;text-align: center; padding: 2% 2% 2% 2%}
+
+a.footer {font-family: Arial, Helvetica, sans-serif; font-size: 1.5em; font-weight:bold;color:darkgray; text-decoration: none;}
