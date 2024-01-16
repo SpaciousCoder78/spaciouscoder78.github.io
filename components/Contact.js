@@ -7,7 +7,7 @@ export default function Contact() {
 
       <form
         noValidate
-        action="https://formspree.io/f/mdoyqgwb"
+        action="https://formspree.io/f/xzbnzjvg"
         method="POST"
         target=""
         className="w-[80%] sm:w-[70%] rounded-lg shadow-lg mx-auto min-h-[200px] p-5"

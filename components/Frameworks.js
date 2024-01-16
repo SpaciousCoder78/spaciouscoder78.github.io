@@ -1,7 +1,7 @@
 import Heading from "./Heading";
 import DevIcon from "devicon-react-svg";
 
-function Card(props) {
+function kard(props) {
   return (
     <div className='flex flex-col hover:shadow-lg mx-auto max-w-[300px] h-[350px] text-center justify-evenly shadow-md hover:bg-gray-100 rounded-lg p-2 items-center m-2'>
       {props.children}
@@ -9,7 +9,7 @@ function Card(props) {
   )
 }
 
-function CardIcon({ icon }) {
+function kardIcon({ icon }) {
   return (
     <div className='rounded-full p-6 w-24 h-24 bg-gradient-to-r from-blue-400 to-blue-500'>
       <DevIcon
@@ -23,7 +23,7 @@ function CardIcon({ icon }) {
   )
 }
 
-const languages = [
+const frameworks = [
   {
     name: "Python",
     icon: "python",
@@ -44,31 +44,21 @@ const languages = [
     icon: "java",
     description: "Class-based, object-oriented programming language. intended to let application developers write once, run anywhere",
   },
-  {
-    name: "PHP",
-    icon: "php",
-    description: "A general-purpose scripting language and interpreter that is freely available and widely used for web development",
-  },
-  {
-    name: "Kotlin",
-    icon: "android",
-    description: "An open-source, statically-typed programming language that supports both object-oriented and functional programming",
-  },
   
 ]
 
-export default function Language() {
+export default function Frameworks() {
   return (
-    <section id='languages' className='scroll'>
-      <Heading text='Some Of The Languages I know'/>
+    <section id='frameworks' className='scroll'>
+      <Heading text='Frameworks I know'/>
 
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-evenly  lg:max-w-5xl mx-auto'>
-      {languages.map(({name, icon, description})=>
-        <Card>
-          <CardIcon icon={icon} />
+      {frameworks.map(({name, icon, description})=>
+        <kard>
+          <kardIcon icon={icon} />
           <span className="text-blue-500 text-2xl">{name}</span>
           <p className="text-gray-600">{description}</p>
-        </Card>
+        </kard>
       )}
     </div>
     </section>

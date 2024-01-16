@@ -27,19 +27,25 @@ export default function Skills() {
         <Icon icon="react" />
         <Icon icon="docker" />
         <Icon icon="nodejs" />
+        <Icon icon="bootstrap"/>
+        <Icon icon="git"/>
+        <Icon icon="intellij"/>
+        <Icon icon="linux"/>
+        <Icon icon="firefox"/>
+        <icon icon="visualstudio"/>
       </div>
 
       <ParallaxProvider>
       <Parallax y={['-120px', '-40px']} className="relative hidden min-h-[120px] md:block md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg parallax mx-auto">
-        <p className='-top-16 right-[5%] text-[23px]'>GraphQl</p>
-        <p className='top-[-10px] lg:top-[-50px] left-0 text-[25px]'>Docker</p>
-        <p className='top-44 left-[-60px] text-base'>React Native</p>
+        <p className='-top-16 right-[5%] text-[23px]'>C++</p>
+        <p className='top-[-10px] lg:top-[-50px] left-0 text-[25px]'>C</p>
+        <p className='top-44 left-[-60px] text-base'>Visual Studio Code</p>
         <p className='left-[40%] -top-16 text-lg'>Android</p>
-        <p className='top-10 left-3/4 text-base'>Flask</p>
-        <p className='top-60 left-[85%] text-lg'>MongoDB</p>
-        <p className='top-40 left-[60%] text-2xl'>NextJs</p>
-        <p className='top-48 left-96 text-xl'>Tailwind</p>
-        <p className='top-36 left-[25%] text-base'>Rust</p>
+        <p className='top-10 left-3/4 text-base'>Vim</p>
+        <p className='top-60 left-[85%] text-lg'>discord.js</p>
+        <p className='top-40 left-[60%] text-2xl'>TailwindCSS</p>
+        <p className='top-48 left-96 text-xl'>Kotlin</p>
+        <p className='top-36 left-[25%] text-base'>C#</p>
       </Parallax>
       </ParallaxProvider>
     </section>

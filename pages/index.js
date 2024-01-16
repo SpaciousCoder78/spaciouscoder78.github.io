@@ -11,7 +11,7 @@ export default function Index() {
   return (
     <>
     <Head>
-      <title>Chirag</title>
+      <title>SpaciousCoder78</title>
       <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
@@ -19,15 +19,15 @@ export default function Index() {
       <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5" />
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#ffffff" />
-      <meta name="title" content="Chirag Singla | Student, Software Enthusiast" />
-      <meta name="description" content="myself Chirag Singla, student, software enthusiast. Knows Java, Python, Javascript, Rust." />
+      <meta name="title" content="SpaciousCoder78 | Software Developer & Engineering Student" />
+      <meta name="description" content="Hi, I'm SpaciousCoder78 and I develop software" />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="Chirag Singla" />
-      <meta property="og:description" content="myself Chirag Singla, student, software enthusiast. Knows Java, Python, Javascript, Rust." />
+      <meta property="og:title" content="SpaciousCoder78" />
+      <meta property="og:description" content="Hi, I'm SpaciousCoder78 and I develop software" />
       <meta property="og:image" content="/meta.png" />
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:title" content="Chirag Singla" />
-      <meta property="twitter:description" content="myself Chirag Singla, student, software enthusiast. Knows Java, Python, Javascript, Rust." />
+      <meta property="twitter:title" content="SpaciousCoder78" />
+      <meta property="twitter:description" content="Hi, I'm SpaciousCoder78 and I develop software" />
       <meta property="twitter:image" content="/meta.png" />
     </Head>
     <Header />

@@ -16,6 +16,7 @@ export default function Header() {
         <ul className='flex space-x-10'>
           <HeaderLink href="#home" />
           <HeaderLink href="#languages" />
+          <HeaderLink href="#frameworks"/>
           <HeaderLink href="#skills" />
           <HeaderLink href="#projects" />
         </ul>

@@ -16,8 +16,8 @@ function Intro() {
   return (
     <div className='text-gray-600 lg:ml-32 z-10'>
       <p className='text-lg'>Hello, I'm</p>
-      <h1 className='text-4xl font-black'>CHIRAG SINGLA</h1>
-      <p className='mt-2 text-xl'>STUDENT, SOFTWARE ENTHUSIAST</p>
+      <h1 className='text-4xl font-black'>SpaciousCoder78</h1>
+      <p className='mt-2 text-xl'>Software Developer & Engineering Student</p>
   </div>
   )
 }
@@ -25,11 +25,11 @@ function Intro() {
 function CodeBlock() {
   return (
     <div className='hidden z-10 sm:inline-block rounded-2xl shadow-lg mt-5 lg:ml-auto text-left bg-white py-8 px-6 text-blue-600 font-medium'>
-    1 class Student:<br/>
+    1 class Details:<br/>
     2   def __init__():<br/>
-    3     self.name = "Chirag Singla"<br/>
-    4     self.age  = datetime.now() - datetime(2005, 12, 22)<br/>
-    5     self.languages = ['Javascript', 'Python', 'Rust', 'Java']
+    3     self.name = "SpaciousCoder78"<br/>
+    4     self.age  = datetime.now() - datetime(2004, 11, 27)<br/>
+    5     self.languages = ['JavaScript', 'Python', 'TypeScript', 'Java','C++','C','C#','MATLAB','Kotlin']
   </div>
   )
 }
